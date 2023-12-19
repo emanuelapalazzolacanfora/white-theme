@@ -3,6 +3,7 @@
     --font-dark: hsl(0, 0%, 5%, 0.9);
     --bg-light: hsl(0, 0%, 96%);
     /*whitesmoke*/
+    --bg-accent:hsl(21, 65%, 49%);
     --bg-medium: hsl(0, 0%, 50%, 0.15);
     --bg-dark: hsl(0, 0%, 5%, 0.9);
     /*black*/
@@ -228,7 +229,16 @@ nav a:hover::before {
         width: 100%;
     }
 }
-
+#album h2,
+#biographie h2,
+#videos h2,
+#tour h2,
+#newsletter h2 {
+    color: var(--font-dark);
+    font-size: 2.9rem;
+    text-align: center;
+    text-transform: capitalize;
+}
 #album h2,
 #videos h2,
 #biographie,
@@ -387,13 +397,18 @@ nav a:hover::before {
 
 .biographie-cont,
 .contact {
-    background-color: var(--bg-medium);
     border-radius: 0;
 }
-
-.biographie h2 {
-    text-align: center;
+.biographie-cont {
+    background-color: var(--bg-accent);
+}
+.biographie{
+    color: var(--font-dark);
+}
+#biographie h2 {
     width: 100%;
+    color: var(--font-dark);
+    text-align: center;
 }
 
 .biographie cite {
@@ -404,24 +419,15 @@ nav a:hover::before {
 
 .biographie p {
     margin: 1rem auto;
-    text-align: justify;
     width: 90%;
+    font-family: sans-serif;
+    text-align: justify;
 }
 
 .Slideshow {
     display: none;
 }
 
-#album h2,
-#biographie h2,
-#videos h2,
-#tour h2,
-#newsletter h2 {
-    color: var(--font-dark);
-    font-size: 2.9rem;
-    text-align: center;
-    text-transform: capitalize;
-}
 
 .tour-cont {
     margin: auto;
