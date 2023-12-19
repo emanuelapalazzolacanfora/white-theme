@@ -2,8 +2,8 @@
     --font-light: hsl(0, 0%, 96%);
     --font-dark: hsl(0, 0%, 5%, 0.9);
     --bg-light: hsl(0, 0%, 96%);
+    --bg-accent:hsl(20, 68%, 42%);
     /*whitesmoke*/
-    --bg-accent:hsl(21, 65%, 49%);
     --bg-medium: hsl(0, 0%, 50%, 0.15);
     --bg-dark: hsl(0, 0%, 5%, 0.9);
     /*black*/
@@ -403,11 +403,11 @@ nav a:hover::before {
     background-color: var(--bg-accent);
 }
 .biographie{
-    color: var(--font-dark);
+    color: var(--font-light);
 }
 #biographie h2 {
     width: 100%;
-    color: var(--font-dark);
+    color: var(--font-light);
     text-align: center;
 }
 
