@@ -498,7 +498,9 @@ div#newsletter {
 #bouton__up svg {
     width: 47px;
 }
-
+.st0 {
+    fill: var(--bg-dark);
+}
 footer {
     position: absolute;
     right: 0;
