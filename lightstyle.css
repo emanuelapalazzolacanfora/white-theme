@@ -330,24 +330,19 @@ nav a:hover::before {
 }
 
 #rotor-k7__top, #rotor-k7__bottom {
-    margin-left: 74%;
     z-index: -1;
     position: absolute;
+    left: 163px;
     object-fit: cover;
     width: 20px;
     height: 28px;
     background-size: cover;
     border-radius: 50%;
+    transition-delay: 0.4s;
     animation-duration: 3.5s;
     -webkit-animation: rotor_spin 3.5s linear infinite;
     animation: rotor_spin 3.5s linear infinite;
     visibility: visible;
-}
-
-#rotor-k7__top {
-    transition-delay: 0.4s;
-    top: 106px;
-    left: -6px;
 }
 div#dot-top, div#dot-bottom {
     z-index: 65;
@@ -359,13 +354,14 @@ div#dot-top, div#dot-bottom {
     border: 3px var(--bg-dark) solid;
     border-radius: 100%;
 }
+#rotor-k7__top {
+    top: 106px;
+}
 div#dot-top {
     top: 38.5%;
 }
 #rotor-k7__bottom {
-    transition-delay: 0.4s;
-    top: 173px;
-    left: -6px;
+    top: 176px;
 }
 div#dot-bottom {
     top: 61%;
