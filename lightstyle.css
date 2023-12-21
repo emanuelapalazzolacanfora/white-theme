@@ -335,7 +335,7 @@ nav a:hover::before {
     position: absolute;
     object-fit: cover;
     width: 20px;
-    height: 22px;
+    height: 28px;
     background-size: cover;
     border-radius: 50%;
     animation-duration: 3.5s;
@@ -346,13 +346,29 @@ nav a:hover::before {
 
 #rotor-k7__top {
     transition-delay: 0.4s;
-    top: 109px;
-    left: -5px;
+    top: 106px;
+    left: 6px;
+}
+div#dot-top, div#dot-top {
+    z-index: 65;
+    position: absolute;
+    left: 73.5%;
+    width: 8px;
+    height: 8px;
+    background-color: var(--bg-light);
+    border: 3px var(--bg-dark) solid;
+    border-radius: 100%;
+}
+div#dot-top {
+    top: 38.5%;
 }
 #rotor-k7__bottom {
     transition-delay: 0.4s;
-    top: 176px;
-    left: -5px;
+    top: 173px;
+    left: -6px;
+}
+div#dot-bottom {
+    top: 61%;
 }
 @keyframes rotor_spin {
     100% {
@@ -364,7 +380,7 @@ nav a:hover::before {
     z-index: 55;
     position: absolute;
     width: 20px;
-    height: 20px;
+    height: 25px;
     background-size: cover;
     border-radius: 50%;
 }
