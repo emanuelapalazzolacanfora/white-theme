@@ -347,9 +347,9 @@ nav a:hover::before {
 #rotor-k7__top {
     transition-delay: 0.4s;
     top: 106px;
-    left: 6px;
+    left: -6px;
 }
-div#dot-top, div#dot-top {
+div#dot-top, div#dot-bottom {
     z-index: 65;
     position: absolute;
     left: 73.5%;
